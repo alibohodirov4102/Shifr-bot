@@ -1,0 +1,16 @@
+{
+  "-1003887311441": {
+    "mode": "emoji",
+    "active": true,
+    "custom_text": "Bu xabar shifrlangan 🔒",
+    "target_mode": "only",
+    "hidden_users": [],
+    "only_users": [
+      {
+        "id": null,
+        "username": "ismoil_02_01",
+        "name": "@Ismoil_02_01"
+      }
+    ]
+  }
+}
