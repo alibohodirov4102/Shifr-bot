@@ -1,5 +1,5 @@
 """
-Ma'lumotlar bazasi — JSON asosida guruh sozlamalarini saqlaydi
+Ma'lumotlar bazasi — JSON asosida guruh sozlamalarini va foydalanuvchi coinlarini saqlaydi
 """
 
 import json
@@ -10,7 +10,7 @@ from config import DATABASE_FILE
 
 class Database:
     """
-    Guruh sozlamalarini JSON faylda saqlaydi.
+    Guruh sozlamalarini va foydalanuvchi coinlarini JSON faylda saqlaydi.
     Thread-safe operatsiyalar uchun lock ishlatiladi.
     """
 
@@ -41,11 +41,10 @@ class Database:
                 "mode": "emoji",
                 "active": True,
                 "custom_text": "Bu xabar shifrlangan 🔒",
-                "target_mode": "none",  # "none", "only" (faqat tanlanganlarga ochiq), "hide" (tanlanganlarga yopiq)
-                "hidden_users": [],     # hide rejimida yopiq bo'lganlar
-                "only_users": []        # only rejimida ochiq bo'lganlar
+                "target_mode": "none",  # "none", "only", "hide"
+                "hidden_users": [],
+                "only_users": []
             }
-        # Eskirgan schema bo'lsa to'ldirish
         chat = self._data[key]
         if "target_mode" not in chat:
             chat["target_mode"] = "hide" if chat.get("hidden_users") else "none"
@@ -54,6 +53,75 @@ class Database:
         if "only_users" not in chat:
             chat["only_users"] = []
         return chat
+
+    def _get_users_dict(self) -> dict:
+        if "users" not in self._data:
+            self._data["users"] = {}
+        return self._data["users"]
+
+    # ── Foydalanuvchi Coin tizimi ─────────────────────────
+
+    def get_user_coins(self, user_id: int) -> int:
+        with self._lock:
+            users = self._get_users_dict()
+            u = users.get(str(user_id))
+            if not u:
+                return 10  # Yangi foydalanuvchiga 10 ta boshlang'ich coin!
+            return u.get("coins", 10)
+
+    def add_user_coins(self, user_id: int, amount: int, username: str = "", name: str = "") -> int:
+        with self._lock:
+            users = self._get_users_dict()
+            key = str(user_id)
+            if key not in users:
+                users[key] = {
+                    "coins": 10 + amount,
+                    "username": username or "",
+                    "name": name or "",
+                    "quizzes_solved": 1 if amount > 0 else 0
+                }
+            else:
+                users[key]["coins"] = users[key].get("coins", 10) + amount
+                if username:
+                    users[key]["username"] = username
+                if name:
+                    users[key]["name"] = name
+                users[key]["quizzes_solved"] = users[key].get("quizzes_solved", 0) + (1 if amount > 0 else 0)
+            self._save()
+            return users[key]["coins"]
+
+    def spend_user_coins(self, user_id: int, amount: int) -> bool:
+        with self._lock:
+            users = self._get_users_dict()
+            key = str(user_id)
+            curr = users.get(key, {}).get("coins", 10)
+            if curr < amount:
+                return False
+            if key not in users:
+                users[key] = {"coins": 10, "username": "", "name": ""}
+            users[key]["coins"] = curr - amount
+            self._save()
+            return True
+
+    def get_leaderboard(self, limit: int = 10) -> list:
+        with self._lock:
+            users = self._get_users_dict()
+            sorted_users = sorted(
+                users.items(),
+                key=lambda x: x[1].get("coins", 0),
+                reverse=True
+            )
+            res = []
+            for uid, data in sorted_users[:limit]:
+                uname = data.get("username")
+                disp = f"@{uname}" if uname else (data.get("name") or f"ID: {uid}")
+                res.append({
+                    "id": uid,
+                    "name": disp,
+                    "coins": data.get("coins", 0),
+                    "solved": data.get("quizzes_solved", 0)
+                })
+            return res
 
     # ── Guruh Rejimi ──────────────────────────────────────
 

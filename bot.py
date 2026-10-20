@@ -3,7 +3,8 @@
 ║              SHIFR BOT - Guruh Shifrlash Boti            ║
 ║   1) Faqat bitta odamga ko'rinishi (/only)              ║
 ║   2) Bitta odamga ko'rinmasligi (/hide)                  ║
-║   3) Umumiy shifrlash                                    ║
+║   3) Savol-javoblar & Viktorina (/quiz)                  ║
+║   4) Coinga maxfiy xabarni sotib olish (2-odam)          ║
 ╚══════════════════════════════════════════════════════════╝
 """
 
@@ -23,6 +24,7 @@ from telegram.error import BadRequest, Forbidden
 from config import BOT_TOKEN, ADMIN_IDS
 from database import Database
 from modes import ModeManager
+import quiz as quiz_module
 
 # ─── Logging ──────────────────────────────────────────────
 logging.basicConfig(
@@ -51,6 +53,7 @@ class MessageCache(OrderedDict):
         self[key] = value
 
 SECRET_MESSAGES = MessageCache()
+ACTIVE_QUIZZES = MessageCache(maxsize=500)
 
 
 # ══════════════════════════════════════════════════════════
@@ -113,26 +116,34 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_type = update.effective_chat.type
     user = update.effective_user
 
+    # Yangi foydalanuvchiga boshlang'ich coin berish
+    user_coins = db.get_user_coins(user.id)
+
     if chat_type == "private":
         text = (
             f"👋 Salom, <b>{user.first_name}</b>!\n\n"
-            "🔐 Men <b>Shifr Bot</b>man — guruhda xabarlaringizni faqat kerakli odamga ko'rsatib, "
-            "boshqalarga smaylik/soxta matn qilib ko'rsatuvchi aqlli botman!\n\n"
-            "✨ <b>2 ta eng asosiy imkoniyat:</b>\n"
-            "1️⃣ <b>Faqat bitta odamga ko'rinsin:</b>\n"
-            "   <code>/only @username</code> (yoki xabariga reply qilib <code>/only</code>)\n"
-            "   <i>(Xabarni FAQAT shu odam va siz o'qiysiz, qolgan hamma bolalarga smaylik ko'rinadi!)</i>\n\n"
-            "2️⃣ <b>Bitta odamdan yashirilsin:</b>\n"
-            "   <code>/hide @username</code> (yoki xabariga reply qilib <code>/hide</code>)\n"
-            "   <i>(Qolgan hamma bolalar o'qiydi, FAQAT shu odamga smaylik ko'rinadi!)</i>\n\n"
-            "📋 <b>Boshqa buyruqlar:</b>\n"
-            "• <code>/clear</code> — Barcha cheklovlarni o'chirish\n"
-            "• <code>/status</code> — Guruhdagi joriy holat\n"
-            "• <code>/setmode</code> — Soxta matn turi (Emoji, Zalgo, Morse, Meow...)"
+            "🔐 Men <b>Shifr Bot</b>man — guruhda maxfiy xabarlar va qiziqarli viktorinalar boti!\n\n"
+            f"🪙 Sizning balansingiz: <b>{user_coins} Coin</b>\n\n"
+            "✨ <b>Asosiy Imkoniyatlar:</b>\n"
+            "1️⃣ <b>Faqat 1 kishiga ko'rinishi:</b>\n"
+            "   <code>/only @username</code> — Xabar faqat unga ko'rinadi, qolganlarga smaylik!\n\n"
+            "2️⃣ <b>Coinga ochish (Ayg'oqchilik 🕵️‍♂️):</b>\n"
+            "   Guruhdagi boshqa bola xabarni <b>10 Coin</b> evaziga sotib olib o'qishi mumkin!\n"
+            "   <i>(Natijada faqat 2 kishi ko'radi: 1-si siz tanlagan odam, 2-si esa coinga sotib olgan odam!)</i>\n\n"
+            "3️⃣ <b>Futbol & Mantiq Viktorinalari:</b>\n"
+            "   <code>/quiz</code> — Qiyin savollarga javob berib, coin ishlang!\n\n"
+            "📋 <b>Barcha buyruqlar:</b>\n"
+            "• <code>/quiz</code> — Viktorina boshlash\n"
+            "• <code>/balans</code> — Coiningizni tekshirish\n"
+            "• <code>/top</code> — Eng ko'p coin to'plaganlar reytingi\n"
+            "• <code>/only @username</code> — Faqat 1 kishiga ko'rsatish\n"
+            "• <code>/hide @username</code> — 1 kishidan yashirish\n"
+            "• <code>/clear</code> — Cheklovlarni bekor qilish\n"
+            "• <code>/setmode</code> — Smaylik/soxta matn turini tanlash"
         )
         keyboard = [[
             InlineKeyboardButton("➕ Guruhga qo'shish", url=f"https://t.me/{context.bot.username}?startgroup=start"),
-            InlineKeyboardButton("📋 Yordam", callback_data="help")
+            InlineKeyboardButton("⚽ Viktorina o'ynash", callback_data="btn_quiz")
         ]]
         await update.message.reply_text(
             text, parse_mode="HTML",
@@ -141,8 +152,9 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text(
             "✅ <b>Shifr Bot</b> guruhda tayyor!\n\n"
-            "🎯 <b>Faqat bitta bolaga ko'rinishi uchun:</b> unga reply qilib <code>/only</code> yoki <code>/only @username</code> yozing.\n"
-            "🚫 <b>Bitta boladan yashirish uchun:</b> unga reply qilib <code>/hide</code> yozing.",
+            "🎯 <b>Faqat 1 kishiga ko'rsatish:</b> <code>/only @username</code> (yoki reply)\n"
+            "⚽ <b>Futbol & Mantiq viktorinasi:</b> <code>/quiz</code>\n"
+            "💰 <b>Balansni ko'rish:</b> <code>/balans</code>",
             parse_mode="HTML"
         )
 
@@ -150,23 +162,151 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Yordam."""
     text = (
-        "🆘 <b>QANDAY ISHLATILADI?</b>\n\n"
-        "🎯 <b>1. Faqat 1 kishiga ko'rinsin (qolganlarga ko'rinmasin):</b>\n"
-        "• <code>/only @username</code>\n"
-        "• Yoki o'sha odamning xabariga reply qilib <code>/only</code>\n"
-        "<i>Guruhdagi 5 kishidan faqat shu odam va siz o'qiysiz, qolgan 3-4 kishiga smaylik ko'rinadi!</i>\n\n"
-        "🚫 <b>2. Bitta odamga ko'rinmasin (qolganlarga ko'rinsin):</b>\n"
-        "• <code>/hide @username</code>\n"
-        "• Yoki o'sha odamning xabariga reply qilib <code>/hide</code>\n"
-        "<i>Qolgan hamma o'qiydi, faqat shu odamga smaylik ko'rinadi!</i>\n\n"
-        "🔄 <b>3. Cheklovni tozalash:</b>\n"
-        "• <code>/clear</code> yoki <code>/reset</code> — normal holatga qaytarish\n\n"
-        "⚙️ <b>Sozlamalar:</b>\n"
-        "• <code>/status</code> — Kim tanlangani va joriy rejim\n"
-        "• <code>/setmode</code> — Smaylik/soxta matn turini tanlash"
+        "🆘 <b>BOT YO'RIQNOMASI</b>\n\n"
+        "⚽ <b>Savol-Javoblar & Coinlar:</b>\n"
+        "• <code>/quiz</code> yoki <code>/savol</code> — Qiyin futbol va mantiq savoli chiqarish\n"
+        "• <code>/balans</code> — Sizning coinlaringiz\n"
+        "• <code>/top</code> — Guruhdagi eng zo'r bilimdonlar reytingi\n"
+        "• <code>/pay @username miqdor</code> — Do'stingizga coin o'tkazish\n\n"
+        "🔒 <b>Maxfiy Xabar & Sotib Olish:</b>\n"
+        "• <code>/only @username</code> — Faqat 1 kishiga ko'rinsin!\n"
+        "• Qolgan bolalar bu xabarni <b>10 Coin</b> evaziga sotib olib o'qishi mumkin!\n"
+        "• Shunda xabar faqat 2 kishiga ko'rinadi: biri siz tanlagan odam, biri coinga sotib olgan odam!\n\n"
+        "🚫 <b>Boshqa buyruqlar:</b>\n"
+        "• <code>/hide @username</code> — Shu odamdan yashirish\n"
+        "• <code>/clear</code> — Barcha cheklovlarni tozalash\n"
+        "• <code>/setmode</code> — Smaylik / soxta matn turini o'zgartirish"
     )
     await update.message.reply_text(text, parse_mode="HTML")
 
+
+# ══════════════════════════════════════════════════════════
+#  VIKTORINA (QUIZ) & COIN TIZIMI
+# ══════════════════════════════════════════════════════════
+
+async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Guruhga yoki shaxsiyga qiziqarli va qiyin savol chiqaradi."""
+    chat_id = update.effective_chat.id
+    q = quiz_module.get_random_question()
+
+    quiz_id = uuid.uuid4().hex[:8]
+    ACTIVE_QUIZZES.set(quiz_id, {
+        "question": q,
+        "answered_users": set(),
+        "solved": False,
+        "winner": None,
+        "chat_id": chat_id
+    })
+
+    options_text = ""
+    letters = ["A", "B", "C", "D"]
+    for i, opt in enumerate(q["options"]):
+        options_text += f"<b>{letters[i]})</b> {opt}\n"
+
+    text = (
+        f"🏆 <b>SAVOL-JAVOB VIKTORINA</b>\n"
+        f"Kategoriya: <b>{q['category']}</b>\n"
+        f"Mukofot: <b>+{q['reward']} 🪙 Coin</b>\n\n"
+        f"❓ <b>{q['question']}</b>\n\n"
+        f"{options_text}\n"
+        f"<i>To'g'ri javobni birinchi bo'lib toping va coin yuting! 👇</i>"
+    )
+
+    buttons = [
+        [
+            InlineKeyboardButton("A", callback_data=f"quiz:{quiz_id}:0"),
+            InlineKeyboardButton("B", callback_data=f"quiz:{quiz_id}:1"),
+            InlineKeyboardButton("C", callback_data=f"quiz:{quiz_id}:2"),
+            InlineKeyboardButton("D", callback_data=f"quiz:{quiz_id}:3"),
+        ]
+    ]
+
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text=text,
+        parse_mode="HTML",
+        reply_markup=InlineKeyboardMarkup(buttons)
+    )
+
+
+async def balance_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Foydalanuvchi balansini ko'rsatadi."""
+    user = update.effective_user
+    coins = db.get_user_coins(user.id)
+    text = (
+        f"👤 <b>{user.first_name}</b>\n"
+        f"💰 Balansingiz: <b>{coins} 🪙 Coin</b>\n\n"
+        f"💡 <i>Coinlarni qanday ishlatish mumkin?</i>\n"
+        f"Guruhdagi maxfiy xabarlarni <b>10 Coin</b> evaziga sotib olib, nima yozilganini bilib olishingiz mumkin! 🕵️‍♂️\n"
+        f"Coin ishlash uchun: <code>/quiz</code>"
+    )
+    await update.message.reply_text(text, parse_mode="HTML")
+
+
+async def top_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Eng ko'p coin egalari reytingi."""
+    leaders = db.get_leaderboard(limit=10)
+    if not leaders:
+        await update.message.reply_text("Hali hech kim coin yutmadi. /quiz buyrug'ini bering!")
+        return
+
+    text = "🏆 <b>ENG KO'P COIN EGALARI REYTINGI:</b>\n\n"
+    medals = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+    for i, lead in enumerate(leaders):
+        icon = medals[i] if i < len(medals) else f"{i+1}."
+        text += f"{icon} <b>{lead['name']}</b> — {lead['coins']} 🪙 ({lead['solved']} ta savol)\n"
+
+    text += "\n💡 <i>Siz ham /quiz orqali savollarga javob berib, peshqadamlar safiga kiring!</i>"
+    await update.message.reply_text(text, parse_mode="HTML")
+
+
+async def pay_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Do'stiga coin o'tkazish: /pay @username 10"""
+    sender = update.effective_user
+    sender_coins = db.get_user_coins(sender.id)
+
+    target_id, target_username, target_name = _extract_target(update, context)
+    amount = 0
+
+    for arg in context.args:
+        if arg.isdigit():
+            amount = int(arg)
+            break
+
+    if (not target_id and not target_username) or amount <= 0:
+        await update.message.reply_text(
+            "💡 <b>Qanday ishlatiladi?</b>\n"
+            "<code>/pay @username 10</code> (yoki uning xabariga reply qilib <code>/pay 10</code>)",
+            parse_mode="HTML"
+        )
+        return
+
+    if sender_coins < amount:
+        await update.message.reply_text(
+            f"❌ Coiningiz yetarli emas! Sizda {sender_coins} 🪙 bor, o'tkazmoqchi bo'lganingiz: {amount} 🪙.",
+            parse_mode="HTML"
+        )
+        return
+
+    # Coin o'tkazish
+    db.spend_user_coins(sender.id, amount)
+
+    # Qabul qiluvchi
+    target_disp = f"@{target_username}" if target_username else (target_name or f"ID: {target_id}")
+    # Agar target_id bo'lsa darhol qo'shamiz
+    if target_id:
+        db.add_user_coins(target_id, amount, target_username or "", target_name or "")
+
+    await update.message.reply_text(
+        f"💸 <b>{sender.first_name}</b> foydalanuvchisi <b>{target_disp}</b> ga <b>{amount} 🪙 Coin</b> o'tkazdi!\n"
+        f"Sizning qolgan balansingiz: <b>{sender_coins - amount} 🪙</b>",
+        parse_mode="HTML"
+    )
+
+
+# ══════════════════════════════════════════════════════════
+#  MAXFIY REJIM BUYRUQLARI (/only, /hide, /clear)
+# ══════════════════════════════════════════════════════════
 
 async def only_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Faqat bitta odamga ko'rinadigan rejim."""
@@ -180,7 +320,7 @@ async def only_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not target_id and not target_username:
         await update.message.reply_text(
             "💡 <b>Qanday ishlatiladi?</b>\n\n"
-            "1️⃣ Xabar faqat kimga ko'rinishi kerak bo'lsa, o'sha odamning xabariga reply qilib <code>/only</code> deb yozing\n"
+            "1️⃣ Xabar faqat kimga ko'rinishi kerak bo'lsa, unga reply qilib <code>/only</code> deb yozing\n"
             "<i>yoki</i>\n"
             "2️⃣ <code>/only @foydalanuvchi</code> deb yozing.",
             parse_mode="HTML"
@@ -193,7 +333,9 @@ async def only_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         f"🎯 <b>Tanlandi: {disp}</b>\n\n"
         f"Endi siz guruhda yozgan xabarlarni <b>FAQAT {disp}</b> va siz o'qiy olasiz!\n"
-        f"Guruhdagi qolgan barcha bolalarga esa <b>faqat smaylik/soxta matn</b> ko'rinadi! 🔒\n\n"
+        f"Guruhdagi qolgan bolalarga esa <b>smaylik/soxta matn</b> ko'rinadi.\n\n"
+        f"💡 <i>Lekin qolgan bolalar bu xabarni <b>10 Coin</b> evaziga sotib olib ochishi mumkin! "
+        f"Shunda xabar faqat 2 kishiga ko'rinadi (1-si {disp}, 2-si sotib olgan kishi).</i> 🕵️‍♂️\n\n"
         f"<i>(Bekor qilish uchun: <code>/clear</code>)</i>",
         parse_mode="HTML"
     )
@@ -240,9 +382,10 @@ async def clear_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     db.clear_targets(chat_id)
     await update.message.reply_text(
         "🔄 <b>Barcha cheklovlar bekor qilindi!</b>\n"
-        "Guruh odatiy holatga qaytdi. Yangi cheklov qo'yish uchun:\n"
+        "Guruh odatiy holatga qaytdi.\n"
         "• <code>/only @username</code> — Faqat 1 kishiga ko'rsatish\n"
-        "• <code>/hide @username</code> — 1 kishidan yashirish",
+        "• <code>/hide @username</code> — 1 kishidan yashirish\n"
+        "• <code>/quiz</code> — Viktorina o'ynash",
         parse_mode="HTML"
     )
 
@@ -261,7 +404,7 @@ async def status_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if target_mode == "only":
         users = db.get_only_users(chat_id)
         u_names = ", ".join([f"@{u['username']}" if u.get('username') else u.get('name', '') for u in users])
-        holat_target = f"🎯 <b>Faqat {u_names} ga ko'rinadi</b> (boshqalarga smaylik)"
+        holat_target = f"🎯 <b>Faqat {u_names} ga ko'rinadi</b> (boshqalar 10 coinga sotib oladi)"
     elif target_mode == "hide":
         users = db.get_hidden_users(chat_id)
         u_names = ", ".join([f"@{u['username']}" if u.get('username') else u.get('name', '') for u in users])
@@ -351,18 +494,85 @@ async def off_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 # ══════════════════════════════════════════════════════════
-#  CALLBACK QUERY HANDLER (Tugmalar & Maxfiy Xabarlar)
+#  CALLBACK QUERY HANDLER
+#  (Viktorina javoblari, Xabar o'qish & Coinga sotib olish)
 # ══════════════════════════════════════════════════════════
 
 async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Tugma bosilganda ishlaydi."""
+    """Tugmalar bosilganda ishlaydi."""
     query = update.callback_query
     data = query.data
     chat_id = query.message.chat_id
     user_id = query.from_user.id
     username = query.from_user.username
+    user_name = query.from_user.first_name or "Foydalanuvchi"
 
-    # ── 1. Maxfiy xabarni ochish ──
+    # ── 1. Viktorina tugmasi (Start menyusi orqali) ──
+    if data == "btn_quiz":
+        await query.answer()
+        await quiz_command(update, context)
+        return
+
+    # ── 2. Viktorina javobini tekshirish ──
+    if data.startswith("quiz:"):
+        _, quiz_id, chosen_idx = data.split(":")
+        chosen_idx = int(chosen_idx)
+        quiz_data = ACTIVE_QUIZZES.get(quiz_id)
+
+        if not quiz_data:
+            await query.answer("⚠️ Bu savol eskirgan yoki muddati tugagan.", show_alert=True)
+            return
+
+        # Foydalanuvchi oldin javob berganmi?
+        if user_id in quiz_data["answered_users"]:
+            await query.answer("⚠️ Siz bu savolga allaqachon javob berdingiz!", show_alert=True)
+            return
+
+        quiz_data["answered_users"].add(user_id)
+        q = quiz_data["question"]
+
+        if chosen_idx == q["correct"]:
+            # To'g'ri javob!
+            if quiz_data.get("solved"):
+                await query.answer(
+                    f"👏 Javobingiz to'g'ri!\nLekin sizdan oldinroq boshqa birov topib bo'ldi.\n\n💡 {q['explanation']}",
+                    show_alert=True
+                )
+            else:
+                quiz_data["solved"] = True
+                quiz_data["winner"] = user_name
+                reward = q["reward"]
+                total_coins = db.add_user_coins(user_id, reward, username or "", user_name)
+
+                await query.answer(
+                    f"🎉 TO'G'RI JAVOB!\n\n+{reward} 🪙 Coin yutdingiz!\nJami balansingiz: {total_coins} 🪙\n\n💡 {q['explanation']}",
+                    show_alert=True
+                )
+
+                # Guruhga tabriklash
+                correct_letter = ["A", "B", "C", "D"][q["correct"]]
+                correct_answer_str = q["options"][q["correct"]]
+                announce_text = (
+                    f"🏆 <b>G'OLIB TOPIB BO'LINDI!</b>\n\n"
+                    f"👤 <b>{user_name}</b> birinchi bo'lib to'g'ri javob berdi!\n"
+                    f"✅ To'g'ri javob: <b>{correct_letter}) {correct_answer_str}</b>\n"
+                    f"💰 Mukofot: <b>+{reward} 🪙 Coin</b>\n\n"
+                    f"💡 <i>{q['explanation']}</i>\n\n"
+                    f"Yangi savol uchun: <code>/quiz</code>"
+                )
+                try:
+                    await query.message.edit_text(announce_text, parse_mode="HTML")
+                except Exception:
+                    pass
+        else:
+            # Noto'g'ri javob
+            await query.answer(
+                "❌ Noto'g'ri javob! Omad keyingi safar.",
+                show_alert=True
+            )
+        return
+
+    # ── 3. Maxfiy xabarni bepul o'qish (faqat ruxsat berilganlar) ──
     if data.startswith("read:"):
         secret_id = data.split(":", 1)[1]
         secret = SECRET_MESSAGES.get(secret_id)
@@ -373,41 +583,130 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         target_mode = secret.get("target_mode", "none")
         sender_id = secret.get("sender_id")
+        buyers = secret.get("buyers", set())
         is_sender = (user_id == sender_id)
+        has_bought = (user_id in buyers)
 
         # Ruxsat tekshiruvi:
         can_read = False
 
-        if is_sender:
+        if is_sender or has_bought:
             can_read = True
         elif target_mode == "only":
-            # Faqat tanlangan odamga ochiq
             can_read = db.is_user_in_only_list(chat_id, user_id, username)
         elif target_mode == "hide":
-            # Tanlangan odamdan boshqa hammaga ochiq
             can_read = not db.is_user_hidden(chat_id, user_id, username)
         else:
             can_read = True
 
         if can_read:
-            # Haqiqiy xabar ochiladi!
+            prefix = "📩 Asl xabar (10 🪙 evaziga ochilgan):" if has_bought else "📩 Asl xabar:"
             await query.answer(
-                f"📩 Asl xabar:\n\n{secret['text']}",
+                f"{prefix}\n\n{secret['text']}",
                 show_alert=True
             )
-            logger.info(f"[{chat_id}] {query.from_user.first_name} asl xabarni o'qidi.")
+            logger.info(f"[{chat_id}] {user_name} asl xabarni o'qidi.")
         else:
             # Soxta smaylik / matn ko'rsatiladi!
             mode = db.get_chat_mode(chat_id) or "emoji"
             fake_content = mode_manager.transform(secret["text"], mode, chat_id, db)
             await query.answer(
-                f"🎭 Siz uchun bu xabar:\n\n{fake_content}",
+                f"🎭 Siz uchun bu xabar:\n\n{fake_content}\n\n"
+                f"💡 Bu xabarni 10 Coin evaziga sotib olib o'qishingiz mumkin! ('🔓 10 🪙 ga ochish' tugmasini bosing)",
                 show_alert=True
             )
-            logger.info(f"[{chat_id}] {query.from_user.first_name} ga soxta xabar ko'rsatildi.")
+            logger.info(f"[{chat_id}] {user_name} ga soxta xabar ko'rsatildi.")
         return
 
-    # ── 2. Admin Rejim sozlamalari ──
+    # ── 4. Maxfiy xabarni 10 Coinga sotib olish (Ayg'oqchilik) ──
+    if data.startswith("buy:"):
+        secret_id = data.split(":", 1)[1]
+        secret = SECRET_MESSAGES.get(secret_id)
+
+        if not secret:
+            await query.answer("⚠️ Bu xabar eskirgan.", show_alert=True)
+            return
+
+        sender_id = secret.get("sender_id")
+        target_mode = secret.get("target_mode", "none")
+        buyers = secret.setdefault("buyers", set())
+
+        # Agar yozgan odam bo'lsa
+        if user_id == sender_id:
+            await query.answer("Siz bu xabarning muallifisiz, sizga shundoq ham ochiq!", show_alert=True)
+            return
+
+        # Agar allaqachon /only da tanlangan odam bo'lsa
+        if target_mode == "only" and db.is_user_in_only_list(chat_id, user_id, username):
+            await query.answer("Sizga bu xabar bepul ochiq! '📩 Xabarni o'qish' tugmasini bosing.", show_alert=True)
+            return
+
+        # Agar foydalanuvchi allaqachon sotib olgan bo'lsa
+        if user_id in buyers:
+            await query.answer("Siz bu xabarni allaqachon sotib olgansiz! '📩 Xabarni o'qish' tugmasini bosing.", show_alert=True)
+            return
+
+        # Limit tekshiruvi: Faqat 1 kishi sotib olishi mumkin!
+        # Shunda jami 2 kishi ko'radi: 1-si tanlangan odam, 2-si sotib olgan kishi!
+        if len(buyers) >= 1:
+            await query.answer(
+                "⚠️ Kech qoldingiz! Bu xabarni boshqa bir kishi allaqachon sotib olib bo'ldi.\n"
+                "Faqat 1 kishi sotib olishiga ruxsat bor edi!",
+                show_alert=True
+            )
+            return
+
+        # Coini yetarlimi?
+        price = 10
+        user_coins = db.get_user_coins(user_id)
+        if user_coins < price:
+            await query.answer(
+                f"❌ Coiningiz yetarli emas!\n\n"
+                f"Sizda: {user_coins} 🪙\n"
+                f"Ochish narxi: {price} 🪙\n\n"
+                f"Savol-javob o'ynab coin ishlang: /quiz",
+                show_alert=True
+            )
+            return
+
+        # Xaridni amalga oshirish!
+        success = db.spend_user_coins(user_id, price)
+        if not success:
+            await query.answer("❌ Xatolik yuz berdi.", show_alert=True)
+            return
+
+        buyers.add(user_id)
+        remain_coins = user_coins - price
+
+        await query.answer(
+            f"🎉 TABRIKLAYMIZ! Xabar ochildi! (-{price} 🪙)\n"
+            f"Qolgan balansingiz: {remain_coins} 🪙\n\n"
+            f"📩 Asl xabar:\n\n{secret['text']}",
+            show_alert=True
+        )
+
+        logger.info(f"[{chat_id}] {user_name} maxfiy xabarni 10 coinga sotib oldi!")
+
+        # Tugmani yangilaymiz: endi sotib olindi deb ko'rinadi
+        buyer_disp = f"@{username}" if username else user_name
+        new_keyboard = [
+            [InlineKeyboardButton("📩 Xabarni o'qish", callback_data=f"read:{secret_id}")],
+            [InlineKeyboardButton(f"🔒 Sotib olindi ({buyer_disp})", callback_data=f"bought:{secret_id}")]
+        ]
+        try:
+            await query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(new_keyboard))
+        except Exception:
+            pass
+        return
+
+    if data.startswith("bought:"):
+        await query.answer(
+            "Bu xabarni boshqa kishi sotib olib bo'ldi. Limit tugagan (faqat 1 kishi sotib olishi mumkin edi)!",
+            show_alert=True
+        )
+        return
+
+    # ── 5. Admin Rejim sozlamalari ──
     try:
         member = await context.bot.get_chat_member(chat_id, user_id)
         user_is_admin = member.status in ["administrator", "creator"] or user_id in ADMIN_IDS
@@ -419,7 +718,8 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text = (
             "🆘 <b>Yordam</b>\n\n"
             "• <code>/only @username</code> — Faqat shu odamga ko'rinsin!\n"
-            "• <code>/hide @username</code> — Shu odamga ko'rinmasin!\n"
+            "• <code>/quiz</code> — Viktorina o'ynab coin ishlash\n"
+            "• <code>/balans</code> — Coiningizni ko'rish\n"
             "• <code>/clear</code> — Barcha cheklovlarni o'chirish"
         )
         await query.message.edit_text(text, parse_mode="HTML")
@@ -513,17 +813,20 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "sender_name": sender_name,
             "sender_id": user.id,
             "chat_id": chat_id,
-            "target_mode": target_mode
+            "target_mode": target_mode,
+            "buyers": set()
         })
 
-        keyboard = [[
-            InlineKeyboardButton("📩 Xabarni o'qish", callback_data=f"read:{secret_id}")
-        ]]
+        # Ikkita tugma: O'qish va Coinga ochish!
+        keyboard = [
+            [InlineKeyboardButton("📩 Xabarni o'qish", callback_data=f"read:{secret_id}")],
+            [InlineKeyboardButton("🔓 10 🪙 ga sotib olish (1 kishi)", callback_data=f"buy:{secret_id}")]
+        ]
 
         if target_mode == "only":
             users = db.get_only_users(chat_id)
             u_names = ", ".join([f"@{u['username']}" if u.get('username') else u.get('name', '') for u in users])
-            caption = f"🔒 <i>Maxfiy xabar (Faqat {u_names} uchun)</i>"
+            caption = f"🔒 <i>Maxfiy xabar (Faqat {u_names} uchun)</i>\n💡 <i>Boshqa bir kishi 10 coinga sotib olishi mumkin!</i>"
         else:
             caption = "🔒 <i>Maxfiy xabar (Cheklangan xabar)</i>"
 
@@ -595,6 +898,13 @@ async def main():
     # Buyruqlar
     app.add_handler(CommandHandler("start",     start_command))
     app.add_handler(CommandHandler("help",      help_command))
+    app.add_handler(CommandHandler("quiz",      quiz_command))
+    app.add_handler(CommandHandler("savol",     quiz_command))
+    app.add_handler(CommandHandler("balans",    balance_command))
+    app.add_handler(CommandHandler("coin",      balance_command))
+    app.add_handler(CommandHandler("top",       top_command))
+    app.add_handler(CommandHandler("pay",       pay_command))
+
     app.add_handler(CommandHandler("only",      only_command))
     app.add_handler(CommandHandler("hide",      hide_command))
     app.add_handler(CommandHandler("clear",     clear_command))
