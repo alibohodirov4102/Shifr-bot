@@ -134,6 +134,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "   <code>/quiz</code> — Qiyin savollarga javob berib, coin ishlang!\n\n"
             "📋 <b>Barcha buyruqlar:</b>\n"
             "• <code>/quiz</code> — Viktorina boshlash\n"
+            "• <code>/shop</code> — Coin Do'koni (narsalar sotib olish)\n"
             "• <code>/balans</code> — Coiningizni tekshirish\n"
             "• <code>/top</code> — Eng ko'p coin to'plaganlar reytingi\n"
             "• <code>/only @username</code> — Faqat 1 kishiga ko'rsatish\n"
@@ -165,6 +166,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🆘 <b>BOT YO'RIQNOMASI</b>\n\n"
         "⚽ <b>Savol-Javoblar & Coinlar:</b>\n"
         "• <code>/quiz</code> yoki <code>/savol</code> — Qiyin futbol va mantiq savoli chiqarish\n"
+        "• <code>/shop</code> yoki <code>/dokon</code> — Coin do'koni (VIP, sovrinlar sotib olish)\n"
         "• <code>/balans</code> — Sizning coinlaringiz\n"
         "• <code>/top</code> — Guruhdagi eng zo'r bilimdonlar reytingi\n"
         "• <code>/pay @username miqdor</code> — Do'stingizga coin o'tkazish\n\n"
@@ -226,6 +228,47 @@ async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text=text,
         parse_mode="HTML",
         reply_markup=InlineKeyboardMarkup(buttons)
+    )
+
+
+def _build_shop_keyboard(user_id: int):
+    return [
+        [InlineKeyboardButton("🔓 Maxfiy xabarni ochish (10 🪙)", callback_data="shop:secret_info")],
+        [InlineKeyboardButton("⭐ VIP Maqomi (30 🪙)", callback_data="shop:vip")],
+        [InlineKeyboardButton("🕵️‍♂️ Super Ayg'oqchi unvoni (50 🪙)", callback_data="shop:detective")],
+        [InlineKeyboardButton("🎁 Omadli Sandiq (15 🪙)", callback_data="shop:chest")],
+        [InlineKeyboardButton("🔄 Yangilash / Balans", callback_data="shop:refresh")]
+    ]
+
+
+async def shop_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Do'kon — Coinlarga narsalar sotib olish."""
+    user = update.effective_user
+    profile = db.get_user_profile(user.id)
+    coins = profile["coins"]
+    vip_status = "⭐ VIP" if profile.get("vip") else "Oddiy"
+    badge = profile.get("badge") or "Mavjud emas"
+
+    text = (
+        f"🛒 <b>COIN DO'KONI — SOTIB OLISH BO'LIMI</b>\n\n"
+        f"👤 Foydalanuvchi: <b>{user.first_name}</b>\n"
+        f"💰 Balansingiz: <b>{coins} 🪙 Coin</b>\n"
+        f"🎖 Maqomingiz: <b>{vip_status}</b> | <b>{badge}</b>\n\n"
+        f"👇 <b>Nimalarni sotib olishingiz mumkin:</b>\n\n"
+        f"1️⃣ <b>Maxfiy xabarni ochish</b> — <code>10 🪙</code>\n"
+        f"   Guruhdagi har qanday maxfiy xabarni sotib olib o'qish (faqat 1 kishi sotib oladi!)\n\n"
+        f"2️⃣ <b>VIP Maqomi</b> — <code>30 🪙</code>\n"
+        f"   Ismingiz yonida oltin ⭐ VIP belgisi paydo bo'ladi!\n\n"
+        f"3️⃣ <b>Super Ayg'oqchi unvoni</b> — <code>50 🪙</code>\n"
+        f"   Guruhda 🕵️‍♂️ Super Ayg'oqchi unvoniga ega bo'lasiz!\n\n"
+        f"4️⃣ <b>Omadli Sandiq</b> — <code>15 🪙</code>\n"
+        f"   Sandiqni oching va 50 🪙 gacha coin yutib oling!\n\n"
+        f"<i>Sotib olish uchun pastdagi tugmalardan birini bosing:</i>"
+    )
+    keyboard = _build_shop_keyboard(user.id)
+    await update.message.reply_text(
+        text, parse_mode="HTML",
+        reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
 
@@ -706,6 +749,91 @@ async def callback_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         return
 
+    # ── 4.5 Do'kon (Shop) xaridlari ──
+    if data.startswith("shop:"):
+        action = data.split(":", 1)[1]
+
+        if action == "secret_info":
+            await query.answer(
+                "💡 Maxfiy xabarni ochish qanday ishlaydi?\n\n"
+                "Guruhda kimdir /only orqali maxfiy xabar yuborsa, u xabar tagida '🛒 10 🪙 ga xarid qilish' tugmasi bo'ladi.\n"
+                "Shu tugmani bosgan 1 kishi 10 coin evaziga xabarni ochib o'qiydi!",
+                show_alert=True
+            )
+            return
+
+        if action == "vip":
+            success, msg, rem = db.buy_shop_item(user_id, "vip", 30)
+            await query.answer(f"{msg}\nQolgan balans: {rem} 🪙", show_alert=True)
+            if success:
+                profile = db.get_user_profile(user_id)
+                text = (
+                    f"🛒 <b>COIN DO'KONI — SOTIB OLISH BO'LIMI</b>\n\n"
+                    f"👤 Foydalanuvchi: <b>{user_name}</b>\n"
+                    f"💰 Balansingiz: <b>{profile['coins']} 🪙 Coin</b>\n"
+                    f"🎖 Maqomingiz: <b>⭐ VIP</b>\n\n"
+                    f"🎉 <i>Tabriklaymiz, siz VIP a'zoga aylandingiz!</i>"
+                )
+                try:
+                    await query.message.edit_text(text, parse_mode="HTML", reply_markup=InlineKeyboardMarkup(_build_shop_keyboard(user_id)))
+                except Exception:
+                    pass
+            return
+
+        if action == "detective":
+            success, msg, rem = db.buy_shop_item(user_id, "detective", 50)
+            await query.answer(f"{msg}\nQolgan balans: {rem} 🪙", show_alert=True)
+            if success:
+                profile = db.get_user_profile(user_id)
+                text = (
+                    f"🛒 <b>COIN DO'KONI — SOTIB OLISH BO'LIMI</b>\n\n"
+                    f"👤 Foydalanuvchi: <b>{user_name}</b>\n"
+                    f"💰 Balansingiz: <b>{profile['coins']} 🪙 Coin</b>\n"
+                    f"🎖 Maqomingiz: <b>🕵️‍♂️ Super Ayg'oqchi</b>\n\n"
+                    f"🎉 <i>Siz Super Ayg'oqchi unvoniga ega bo'ldingiz!</i>"
+                )
+                try:
+                    await query.message.edit_text(text, parse_mode="HTML", reply_markup=InlineKeyboardMarkup(_build_shop_keyboard(user_id)))
+                except Exception:
+                    pass
+            return
+
+        if action == "chest":
+            success, msg, rem = db.buy_shop_item(user_id, "chest", 15)
+            await query.answer(f"{msg}\nQolgan balans: {rem} 🪙", show_alert=True)
+            if success:
+                profile = db.get_user_profile(user_id)
+                text = (
+                    f"🛒 <b>COIN DO'KONI — SOTIB OLISH BO'LIMI</b>\n\n"
+                    f"👤 Foydalanuvchi: <b>{user_name}</b>\n"
+                    f"💰 Balansingiz: <b>{profile['coins']} 🪙 Coin</b>\n\n"
+                    f"{msg}\n\n"
+                    f"<i>Yana ochish uchun tugmani bosing!</i>"
+                )
+                try:
+                    await query.message.edit_text(text, parse_mode="HTML", reply_markup=InlineKeyboardMarkup(_build_shop_keyboard(user_id)))
+                except Exception:
+                    pass
+            return
+
+        if action == "refresh":
+            profile = db.get_user_profile(user_id)
+            vip_status = "⭐ VIP" if profile.get("vip") else "Oddiy"
+            badge = profile.get("badge") or "Mavjud emas"
+            text = (
+                f"🛒 <b>COIN DO'KONI — SOTIB OLISH BO'LIMI</b>\n\n"
+                f"👤 Foydalanuvchi: <b>{user_name}</b>\n"
+                f"💰 Balansingiz: <b>{profile['coins']} 🪙 Coin</b>\n"
+                f"🎖 Maqomingiz: <b>{vip_status}</b> | <b>{badge}</b>\n\n"
+                f"<i>Balans va do'kon yangilandi!</i>"
+            )
+            await query.answer("🔄 Yangilandi!")
+            try:
+                await query.message.edit_text(text, parse_mode="HTML", reply_markup=InlineKeyboardMarkup(_build_shop_keyboard(user_id)))
+            except Exception:
+                pass
+            return
+
     # ── 5. Admin Rejim sozlamalari ──
     try:
         member = await context.bot.get_chat_member(chat_id, user_id)
@@ -879,6 +1007,13 @@ async def main():
         logger.error("❌ BOT_TOKEN topilmadi! config.py faylini tekshiring.")
         return
 
+    # Serverlarda (Render, Koyeb, Railway) 24/7 ishlashi uchun port ochish
+    try:
+        from keep_alive import keep_alive
+        keep_alive()
+    except Exception as e:
+        logger.warning(f"Keep-alive ishga tushmadi: {e}")
+
     logger.info("🚀 Shifr Bot ishga tushmoqda...")
 
     from proxy_manager import get_working_proxy
@@ -902,6 +1037,11 @@ async def main():
     app.add_handler(CommandHandler("savol",     quiz_command))
     app.add_handler(CommandHandler("balans",    balance_command))
     app.add_handler(CommandHandler("coin",      balance_command))
+    app.add_handler(CommandHandler("shop",      shop_command))
+    app.add_handler(CommandHandler("dokon",     shop_command))
+    app.add_handler(CommandHandler("buy",       shop_command))
+    app.add_handler(CommandHandler("xarid",     shop_command))
+    app.add_handler(CommandHandler("sotibolish", shop_command))
     app.add_handler(CommandHandler("top",       top_command))
     app.add_handler(CommandHandler("pay",       pay_command))
 

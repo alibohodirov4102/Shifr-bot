@@ -103,6 +103,60 @@ class Database:
             self._save()
             return True
 
+    def get_user_profile(self, user_id: int) -> dict:
+        with self._lock:
+            users = self._get_users_dict()
+            u = users.get(str(user_id), {})
+            return {
+                "coins": u.get("coins", 10),
+                "username": u.get("username", ""),
+                "name": u.get("name", ""),
+                "quizzes_solved": u.get("quizzes_solved", 0),
+                "vip": u.get("vip", False),
+                "badge": u.get("badge", "")
+            }
+
+    def buy_shop_item(self, user_id: int, item_type: str, cost: int) -> tuple[bool, str, int]:
+        """Do'kondan narsa sotib olish."""
+        with self._lock:
+            users = self._get_users_dict()
+            key = str(user_id)
+            if key not in users:
+                users[key] = {"coins": 10, "username": "", "name": ""}
+            
+            curr_coins = users[key].get("coins", 10)
+            if curr_coins < cost:
+                return False, f"Coin yetarli emas! Sizda {curr_coins} 🪙 bor, kerak: {cost} 🪙.", curr_coins
+
+            # Xarid turlari
+            if item_type == "vip":
+                if users[key].get("vip"):
+                    return False, "Sizda allaqachon ⭐ VIP maqomi mavjud!", curr_coins
+                users[key]["coins"] = curr_coins - cost
+                users[key]["vip"] = True
+                self._save()
+                return True, "Tabriklaymiz! Sizga ⭐ VIP maqomi berildi!", users[key]["coins"]
+
+            elif item_type == "detective":
+                if users[key].get("badge") == "🕵️‍♂️ Ayg'oqchi":
+                    return False, "Sizda allaqachon 🕵️‍♂️ Ayg'oqchi unvoni bor!", curr_coins
+                users[key]["coins"] = curr_coins - cost
+                users[key]["badge"] = "🕵️‍♂️ Ayg'oqchi"
+                self._save()
+                return True, "Tabriklaymiz! Siz 🕵️‍♂️ Super Ayg'oqchi unvonini oldingiz!", users[key]["coins"]
+
+            elif item_type == "chest":
+                # Omadli sandiq: 5 dan 40 gacha yutadi
+                import random
+                prize = random.choice([5, 8, 12, 18, 25, 35, 50])
+                users[key]["coins"] = curr_coins - cost + prize
+                self._save()
+                diff = prize - cost
+                diff_str = f"+{diff}" if diff >= 0 else f"{diff}"
+                return True, f"🎁 Sandiq ochildi! Ichidan {prize} 🪙 chiqdi! (Foyda: {diff_str} 🪙)", users[key]["coins"]
+
+            return False, "Noma'lum mahsulot.", curr_coins
+
     def get_leaderboard(self, limit: int = 10) -> list:
         with self._lock:
             users = self._get_users_dict()
@@ -115,6 +169,10 @@ class Database:
             for uid, data in sorted_users[:limit]:
                 uname = data.get("username")
                 disp = f"@{uname}" if uname else (data.get("name") or f"ID: {uid}")
+                if data.get("vip"):
+                    disp += " ⭐ VIP"
+                elif data.get("badge"):
+                    disp += f" {data.get('badge')}"
                 res.append({
                     "id": uid,
                     "name": disp,
