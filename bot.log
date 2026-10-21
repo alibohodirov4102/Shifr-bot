@@ -280,3 +280,2080 @@
 2026-10-20 15:51:45,716 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
 2026-10-20 15:51:56,082 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
 2026-10-20 15:52:06,231 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:52:16,368 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:52:26,519 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:52:36,667 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:52:46,808 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:52:56,945 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:07,077 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:17,215 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:27,357 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:37,490 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:47,657 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:53:57,805 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:07,935 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:18,070 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:28,214 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:38,344 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:48,492 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:54:58,629 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:08,807 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:18,957 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:29,088 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:39,220 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:49,355 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:55:59,490 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:56:09,644 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:56:19,787 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:56:29,954 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:56:40,111 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:56:50,269 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:57:00,403 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:57:10,569 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:57:20,731 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:57:46,833 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:57:58,047 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:57:59,066 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:58:00,579 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:58:02,845 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:58:11,663 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 15:58:30,183 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:58:58,703 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:59:09,417 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:59:19,619 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:59:29,810 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:59:40,023 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 15:59:50,235 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:00,911 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:11,116 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:21,770 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:31,969 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:42,177 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:00:52,377 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:02,579 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:13,196 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:23,427 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:33,644 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:43,858 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:01:54,078 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:02:04,280 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:02:30,363 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:02:42,453 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:02:54,550 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:03:06,126 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:03:16,272 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:04:12,970 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:31,960 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:41,392 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:41,533 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:42,033 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:05:42,327 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:05:51,675 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:54,655 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:55,099 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:05:57,125 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:05:57,284 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:05:57,502 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:06:07,257 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:17,410 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:17,902 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:18,482 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:06:18,647 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/editMessageText "HTTP/1.1 200 OK"
+2026-10-20 16:06:28,323 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:33,614 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:35,325 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:06:43,788 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:06:53,946 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:04,084 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:14,239 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:24,382 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:34,527 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:44,684 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:07:54,847 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:04,981 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:15,124 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:25,259 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:35,390 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:45,520 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:08:55,659 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:09:06,088 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:09:16,221 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:09:26,373 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:09:52,468 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:10:04,573 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:10:16,663 | ERROR | telegram.ext.Updater | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 753, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 747, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 377, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 649, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 4366, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 623, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\_bot.py", line 652, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 201, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 333, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\Desktop\shifr bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 300, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-10-20 16:10:31,574 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:10:41,728 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:10:52,847 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:05,206 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:15,349 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:25,495 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:35,633 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:45,781 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:11:55,934 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:01,751 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:11,905 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:23,119 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:34,035 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:45,458 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:13:57,155 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:08,009 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:18,162 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:28,309 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:38,466 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:48,626 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:14:58,755 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:08,899 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:19,064 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:29,239 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:39,398 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:49,562 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:15:59,716 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:16:09,878 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:16:20,070 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:16:30,224 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:16:40,405 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:16:50,610 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:01,121 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:11,406 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:21,988 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:32,155 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:42,349 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:17:52,516 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:02,670 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:12,821 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:22,979 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:33,140 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:43,303 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:18:53,448 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:04,205 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:14,376 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:24,558 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:35,246 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:45,413 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:19:55,557 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:06,020 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:16,176 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:26,565 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:36,740 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:46,897 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:20:57,047 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:21:07,228 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:21:17,412 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:21:27,568 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:21:38,143 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:21:49,580 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:00,338 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:10,472 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:20,645 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:30,799 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:40,956 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:22:51,197 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:01,350 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:11,820 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:21,977 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:32,128 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:42,278 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:23:52,444 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:02,594 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:12,743 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:22,905 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:33,086 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:43,242 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:24:53,402 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:03,595 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:13,777 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:23,917 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:34,066 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:44,260 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:25:54,791 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:04,937 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:15,287 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:25,451 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:35,602 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:45,792 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:26:55,949 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:06,086 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:16,246 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:26,756 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:36,896 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:47,126 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:27:57,289 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:07,445 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:17,605 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:27,761 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:37,909 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:48,060 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:28:58,222 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:08,430 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:18,599 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:28,776 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:35,203 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:45,378 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:29:55,519 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:03,627 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:03,822 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:04,435 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:30:13,997 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:18,690 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:19,106 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:30:19,287 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:30:28,851 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:29,035 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:29,616 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:30:29,839 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/editMessageText "HTTP/1.1 200 OK"
+2026-10-20 16:30:36,720 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:37,182 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:30:46,886 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:30:57,030 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:02,261 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:02,717 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:31:12,424 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:14,252 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:16,177 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:31:24,421 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:27,664 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:28,107 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-10-20 16:31:28,273 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/editMessageText "HTTP/1.1 200 OK"
+2026-10-20 16:31:37,830 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:41,061 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:31:41,478 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:31:51,252 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:01,615 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:06,889 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:07,325 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/deleteMessage "HTTP/1.1 200 OK"
+2026-10-20 16:32:07,485 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:32:07,487 | INFO | __main__ | [8562066421] علي🦅: 'Coin' → '💀☠️🦴' (rejim: emoji)
+2026-10-20 16:32:17,040 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:23,761 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:24,174 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/deleteMessage "HTTP/1.1 200 OK"
+2026-10-20 16:32:24,346 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:32:24,348 | INFO | __main__ | [8562066421] علي🦅: 'Jâdkfjfjfjbxbxkxbfbfbfnfnfnngngnfnfbfnfnfnfkf' → '😏😎🕶️' (rejim: emoji)
+2026-10-20 16:32:33,906 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:44,442 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:32:54,580 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:04,715 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:14,862 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:25,016 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:32,795 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:33,243 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/deleteMessage "HTTP/1.1 200 OK"
+2026-10-20 16:33:33,421 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:33:33,422 | INFO | __main__ | [7599446475] Ismoil: 'START' → '👀🤔💭' (rejim: emoji)
+2026-10-20 16:33:42,941 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:43,699 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:33:44,150 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:33:53,854 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:04,365 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:14,502 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:24,658 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:24,977 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:25,703 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:34:35,107 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:45,272 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:34:55,419 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:05,570 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:10,245 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:20,404 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:30,547 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:40,681 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:35:50,843 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:00,986 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:11,124 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:13,535 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:13,687 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:14,148 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:36:23,896 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:34,061 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:44,566 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:36:54,750 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:04,894 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:15,039 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:25,578 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:35,747 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:46,156 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:37:56,305 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:06,461 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:16,627 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:26,780 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:36,946 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:47,362 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:38:57,527 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:07,671 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:17,833 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:27,980 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:38,133 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:48,291 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:39:59,038 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:40:09,179 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:40:19,377 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:40:30,403 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:40:40,559 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:40:51,264 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:02,258 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:12,407 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:22,918 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:33,068 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:43,220 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:41:53,389 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:03,575 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:13,743 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:23,896 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:34,061 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:44,570 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:42:54,722 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:04,877 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:15,022 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:25,178 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:35,353 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:45,515 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:43:55,671 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:05,824 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:15,967 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:26,139 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:36,276 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:46,433 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:44:56,583 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:06,728 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:16,894 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:27,055 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:37,194 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:47,341 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:45:57,546 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:07,704 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:17,848 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:27,997 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:38,156 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:48,314 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:46:58,749 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:08,918 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:19,067 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:29,216 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:39,390 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:49,565 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:47:59,910 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:48:10,065 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:48:20,227 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:48:30,388 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:48:40,538 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:48:50,679 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:00,831 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:11,003 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:21,164 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:31,308 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:41,488 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:49:51,651 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:01,840 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:11,993 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:22,154 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:32,306 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:41,463 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:45,358 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:50:51,620 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:58,613 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:50:59,303 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:00,034 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:51:09,465 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:14,904 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:15,670 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:51:24,878 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:25,606 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:51:35,024 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:41,659 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:51:42,676 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/sendMessage "HTTP/1.1 200 OK"
+2026-10-20 16:51:51,827 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:01,982 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:12,127 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:22,278 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:32,419 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:42,567 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:52:52,714 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:02,864 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:13,420 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:23,605 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:33,770 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:43,912 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:53:54,068 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:04,211 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:14,353 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:24,484 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:34,632 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:44,778 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:54:54,937 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:05,094 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:15,234 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:25,389 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:35,545 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:45,749 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:55:56,433 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:56:06,881 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:56:17,402 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:56:27,566 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"
+2026-10-20 16:56:37,734 | INFO | httpx | HTTP Request: POST https://api.telegram.org/bot8821679236:AAFR0f-dg-aJ0plCLHB6aP8jbtUet6UN7iE/getUpdates "HTTP/1.1 200 OK"

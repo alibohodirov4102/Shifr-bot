@@ -15,10 +15,40 @@
   },
   "users": {
     "8562066421": {
-      "coins": 22,
+      "coins": 58,
       "username": "Al1cmb",
       "name": "علي🦅",
-      "quizzes_solved": 1
+      "quizzes_solved": 4
     }
+  },
+  "8562066421": {
+    "mode": "emoji",
+    "active": true,
+    "custom_text": "Bu xabar shifrlangan 🔒",
+    "target_mode": "none",
+    "hidden_users": [],
+    "only_users": []
+  },
+  "7599446475": {
+    "mode": "emoji",
+    "active": true,
+    "custom_text": "Bu xabar shifrlangan 🔒",
+    "target_mode": "none",
+    "hidden_users": [],
+    "only_users": []
+  },
+  "-1004394502994": {
+    "mode": "emoji",
+    "active": true,
+    "custom_text": "Bu xabar shifrlangan 🔒",
+    "target_mode": "only",
+    "hidden_users": [],
+    "only_users": [
+      {
+        "id": null,
+        "username": "foydalanuvchi",
+        "name": "@foydalanuvchi"
+      }
+    ]
   }
 }
